@@ -14,6 +14,7 @@ header {
 	margin: 0 auto;
 }
 .head-head {
+	/*min-width: 1000px;*/
 	height: 50px;
 	background-color: #2d2928;
 }
@@ -59,7 +60,7 @@ header {
 .columnist {
 	padding-top: 15px;
 	float: left;
-	width: 468px;
+	/*width: 468px;*/
 	color: #666666;
 }
 
@@ -263,7 +264,7 @@ header {
 	background-color: #232323;
 }
 main {
-	height: 1130px;
+	min-height: 1130px;
 	border-bottom: 1px solid #e1e1e1;
 }
 .foot-navi {
@@ -301,4 +302,213 @@ main {
 	margin: 0;
 	padding: 0;
 	display: inline-block;
+}
+.foot-cont {
+	min-width: 1000px;
+	padding: 0 20px 0 20px;
+}
+#foot-left {
+	float: left;
+	line-height: 60px;
+	font-size: 13px;
+	color: #919191;
+}
+#foot-right {
+	line-height: 60px;
+	font-size: 13px;
+	color: #919191;
+	float: right;
+}
+/*.head-head, main, .nav-1, .search, .imageholder, .imageholder p {*/
+	/*min-width: 500px;*/
+/*}*/
+/*@media screen and (max-width: 600px) {
+	.search, .nav, .imageholder p, .imageholder {
+		display: none;
+	}*/
+/*@media screen and (max-width: 700px) {
+  header div .head-head, .nav-1, .imageholder, .head-colu {
+    width: 100%;
+  }
+  @media screen and (max-width: 700px) {
+  		.imageholder, .column div.columnist, .head-nav {
+  		display: block;
+  }
+
+
+  @media screen and (max-width: 700px) {
+	.search, div.imageholder p, .head-main-container .head-main-cont, .column .imageholder, .foot-navi {
+		display: none;
+	}
+@media screen and (max-width: 700px) {
+ 	 .head-head,  .nav-1, main, .foot-down, .foot-cont {
+    width: 100%;
+
+  }
+@media screen and (max-width: 700px) {
+	main {
+		float: left;
+}
+@media screen and (max-width: 700px) {
+	.nav-1 ul {
+		margin: 0 auto;
+		float: none;
+}
+@media screen and (max-width: 700px) {
+	.nav-1 {
+		margin: 0 auto;
+		width: 100%;
+}
+@media screen and (max-width: 700px) {
+	.columnist, .column .imageholder, .row1, .row2, .row3 {
+		width: 50%;
+
+}
+@media screen and (max-width: 700px) {
+	 main, .foot-up, .foot-down,  .row1, .row2, .row3 {
+		display: block;
+}
+@media screen and (max-width: 700px) {
+	.row1, .row2, {
+		float: left;
+}
+@media screen and (max-width: 700px) {
+	.row3 {
+		float: right;
+}
+@media screen and (max-width: 700px) {
+	#foot-left, #foot-right, .foot-cont p {
+		display: block;
+		width: 100%;
+}
+@media screen and (max-width: 700px) {
+	.columnist, .columnist h2, .columnist p, .column, .head-main-h2, {
+		margin: 0 auto;
+		text-align: center;
+		float: none;
+		padding: 0;
+}
+@media screen and (max-width: 990px) {
+	.container .nav ul li {
+		display: block;
+	}
+}
+*/
+@media screen and (max-width: 900px) {
+	.head-nav .container {
+		position: relative;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.head-colu {
+		/*background-color: purple;*/
+		height: 110px;
+	}
+}
+@media screen and (max-width: 900px) {
+	.head-colu .columnist {
+		height: auto;
+	}
+}
+@media screen and (max-width: 900px) {
+	.head-main .head-main-container .head-main-h2 {
+		width: 70%;
+		display: inline-block;
+		float: right;
+	}
+}
+@media screen and (max-width: 900px) {
+  .columnist, .nav-1 ul, .head-main-h2, footer {
+    display: block;
+    width: 100%;
+    text-align: center;
+    
+  } 
+}
+  @media screen and (max-width: 900px) {
+    .column .imageholder, .foot-up, .foot-navi, .search, .foot-nav-first  {
+      display: none;
+  }
+  }
+@media screen and (max-width: 900px){
+      header .head-nav, .head-main-container   {
+        height: 100%;
+        width: 100%;
+        /*background-color: blue;*/
+    }
+    }
+  @media screen and (max-width: 900px){
+    .head-nav .container .nav ul li {
+      display: flex;
+      padding: 0;
+      margin: 0;
+      /*background-color: red;*/
+    }
+  }
+  @media screen and (max-width: 900px) {
+  	.container .nav ul {
+  		margin: 0 auto;
+  	}
+  }
+    @media screen and (max-width: 900px) {
+      .nav {
+      	text-align: center;
+        /*width: 25%;*/
+        line-height: 25px;
+        height: auto;
+        /*background-color: orange;*/
+      }
+      }
+      @media screen and (max-width: 900px) {
+        .nav ul li a {
+          width: 150px;
+          padding: 0;
+      }
+}
+        @media screen and (max-width: 900px) {
+          .head-main-cont {
+            width: 25%;
+            margin: 10px 0 0 0;
+        }
+}
+@media screen and (max-width: 900px) {
+  .head-main .head-main-h2 {
+     width: 100%; 
+     display: block; 
+    padding: 0;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 900px) {
+  header, main, main .container {
+    height: 100%;
+    display: block;
+    
+  }
+}
+@media screen and (max-width: 900px) {
+	.head-main-h2 h1 {
+		margin: 10px 0 0 0;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.row3 {
+		float: none;
+		display: inline-block;
+	}
+}
+@media screen and (max-width: 900px) {
+#foot-right {
+	float: none;
+	width: auto;
+	text-align: right;
+}
+}
+
+@media screen and (max-width: 900px) {
+	.foot-cont {
+		width: 100%;
+	}
 }
